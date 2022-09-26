@@ -11,9 +11,9 @@ class Mamifero(Animal):
         self._patas = patas
         Mamifero._listado.append(self)
 
-    def isPelaje(self, pelaje):
-        self._pelaje = pelaje
-    def getPelaje(self):
+    def setPelaje(self):
+        self._pelaje = self._pelaje
+    def isPelaje(self):
         return self._pelaje
     
     def setPatas(self, patas):
