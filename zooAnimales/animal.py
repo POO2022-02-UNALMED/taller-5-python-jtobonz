@@ -45,11 +45,11 @@ class Animal:
         from zooAnimales.ave import Ave
         from zooAnimales.reptil import Reptil
         from zooAnimales.pez import Pez
-        from zooAnimales.anfibios import Anfibio
+        from zooAnimales.anfibio import Anfibio
         return "Mamiferos: " + Mamifero.cantidadMamiferos + "Aves: " + Ave.cantidadAves + "Reptiles: " + Reptil.cantidadReptiles + "Peces: " + Pez.cantidadPeces + "Anfibios: " + Anfibio.cantidadAnfibios
     
     @classmethod
-    def __str__(self):
+    def toString(self):
         if self._zona == None:
             return f"“Mi nombre es {self._nombre}, tengo una edad de {self._edad}, habito en {self._habitat} y mi genero es {self._genero}"
         else:

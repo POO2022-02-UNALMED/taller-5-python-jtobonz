@@ -13,7 +13,7 @@ class Reptil(Animal):
     
     def setColorEscamas(self, colorEscamas):
         self._colorEscamas = colorEscamas
-    def getColorPlumas(self):
+    def getColorEscamas(self):
         return self._colorEscamas
     
     def setLargoCola(self, largoCola):
