@@ -32,4 +32,3 @@ class Ave (Animal):
     def crearAguila(cls, nombre, edad, genero):
         x = Ave(nombre, edad, "montanas", genero, "blanco y amarillo")
         cls.aguilas += 1
-    
