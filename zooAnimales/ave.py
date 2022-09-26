@@ -1,4 +1,4 @@
-from animal import Animal
+from zooAniamles.animal import Animal
 
 class Ave (Animal):
     _listado = []
