@@ -1,4 +1,4 @@
-from zooAniamles.animal import Animal
+from zooAnimales.animal import Animal
 
 class Ave (Animal):
     _listado = []
@@ -6,7 +6,7 @@ class Ave (Animal):
     aguilas = 0
 
     def __init__ (self, nombre, edad, habitat, genero, colorPlumas):
-        super.__init__(nombre, edad, habitat, genero)
+        super().__init__(nombre, edad, habitat, genero)
         self._colorPlumas = colorPlumas
         Ave._listado.append(self)
     
