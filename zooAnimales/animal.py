@@ -48,7 +48,6 @@ class Animal:
         from zooAnimales.anfibio import Anfibio
         return f"Mamiferos : {Mamifero.cantidadMamiferos()}\nAves : {Ave.cantidadAves()}\nReptiles : {Reptil.cantidadReptiles()}\nPeces : {Pez.cantidadPeces()}\nAnfibios : {Anfibio.cantidadAnfibios()}"
     
-    @classmethod
     def toString(self):
         if self._zona == None:
             return f"“Mi nombre es {self._nombre}, tengo una edad de {self._edad}, habito en {self._habitat} y mi genero es {self._genero}"
