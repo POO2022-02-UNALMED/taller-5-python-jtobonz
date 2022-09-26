@@ -46,7 +46,7 @@ class Animal:
         from zooAnimales.reptil import Reptil
         from zooAnimales.pez import Pez
         from zooAnimales.anfibio import Anfibio
-        return "Mamiferos: " + Mamifero.cantidadMamiferos + "Aves: " + Ave.cantidadAves + "Reptiles: " + Reptil.cantidadReptiles + "Peces: " + Pez.cantidadPeces + "Anfibios: " + Anfibio.cantidadAnfibios
+        return f"Mamiferos: {Mamifero.cantidadMamiferos()}\nAves: {Ave.cantidadAves()}\nReptiles: {Reptil.cantidadReptiles()}\nPeces: {Pez.cantidadPeces}\nAnfibios: {Anfibio.cantidadAnfibios}"
     
     @classmethod
     def toString(self):
