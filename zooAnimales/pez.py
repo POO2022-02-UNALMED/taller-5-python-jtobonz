@@ -37,6 +37,6 @@ class Pez(Animal):
     @classmethod
     def crearBacalao(cls, nombre, edad, genero):
         x = Pez(nombre, edad, "oceano", genero, "gris", 6)
-        cls.salmones += 1
+        cls.bacalaos += 1
 
     

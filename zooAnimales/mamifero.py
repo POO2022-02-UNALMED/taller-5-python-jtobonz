@@ -33,4 +33,4 @@ class Mamifero(Animal):
     @classmethod
     def crearLeon(cls, nombre, edad, genero):
         x = Mamifero(nombre, edad, "selva", genero, True, 4)
-        cls.caballos += 1
+        cls.leones += 1
